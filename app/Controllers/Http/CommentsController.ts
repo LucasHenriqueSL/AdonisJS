@@ -18,7 +18,7 @@ export default class CommentsController {
 
         return{
             message: "Comentário adicionado com sucesso!",
-            data: comment
+            data: comment,
         }
 
     }

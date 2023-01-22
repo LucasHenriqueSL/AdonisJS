@@ -93,6 +93,7 @@ public async update({params,request}: HttpContextContract){
     }
 
         await moment.save()
+        
             return{
                 message: 'Momento atualizado com sucesso',
                 data: moment,
